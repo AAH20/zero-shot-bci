@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zero-shot-bci"
+version = "1.0.0"
+description = "Zero-Shot Cross-Subject BCI Foundation Transport & Continuous Multi-Modal Biometric Liveness Mesh. Gromov-Wasserstein manifold alignment, sub-15mW spike sparsification, and P300/optical jitter anti-spoofing."
+readme = "README.md"
+authors = [{ name = "Ahmed Hassan", email = "founder@a2zsoc.com" }]
+license = { text = "Apache-2.0" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+keywords = [
+    "brain-computer-interface",
+    "zero-shot-learning",
+    "optimal-transport",
+    "gromov-wasserstein",
+    "biometrics",
+    "liveness-detection",
+    "anti-spoofing",
+    "neural-decoding",
+    "neuromorphic",
+    "neurotech",
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.urls]
+Homepage = "https://a2zsoc.com"
+Repository = "https://github.com/AAH20/zero-shot-bci"
